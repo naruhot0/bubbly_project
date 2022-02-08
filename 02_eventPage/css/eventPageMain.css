@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+
+
+body{
+    width: 1200px;
+    margin: 0 auto;
+}
+ul,li {
+
+    list-style: none;
+    margin-left: 0px;
+    padding-left: 0px;
+
+}
+header{
+    height: 120px;
+    background-color: antiquewhite;
+    text-align: center;
+
+}
+
+.allmenu{
+
+    width: 800px;
+    height: 100px;
+    background-color: azure;
+}
