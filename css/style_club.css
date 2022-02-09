@@ -1,0 +1,171 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0%;
+    padding: 0%;
+}
+
+.intro_bg{
+    background: url("https://cdn.pixabay.com/photo/2014/01/24/13/32/marathon-250987_960_720.jpg") fixed;
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header{
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    height: 86px;
+}
+
+.home{
+    width: 300px;
+    height: 86px;
+}
+
+.home > form > span{
+    width: 300px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 86px;
+    font-size: 40px;
+}
+
+.nav{
+    display: flex;
+    line-height: 86px;
+    width: calc(1280px - 600px);
+    color: #fff;
+}
+
+.nav > li{
+    margin-left: 84px;
+    z-index: 100;
+}
+
+.nav > li > a{
+    color: #fff;
+}
+
+.nav > li:hover .lower_menu{
+    display: block;
+    z-index: 100;
+    background: black;
+}
+
+.lower_menu{
+    display: none;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    margin-left: -23px;
+    position: relative;
+}
+
+.customer{
+    display: flex;
+    width: 300px;
+    height: 86px;
+    justify-content: flex-end;
+}
+
+.customer > li{
+    margin-left: 20px;
+    color: #fff;
+    line-height: 86px;
+}
+
+.customer > li > a{
+    color: #fff;
+}
+
+/* table */
+table{
+    border-collapse: collapse;
+    /* 간격 제거 */
+}
+
+caption{
+    display: none;
+    /* 간격 제거 */
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.board_list_wrap{
+    padding: 50px;
+    background: white;
+    height: 450px;
+    z-index: 10;
+}
+
+.board_list{
+    width: 1200px;
+    margin: auto;
+    border-top: 1px solid skyblue;
+}
+
+.board_list tr{
+    border-bottom : 1px solid #ccc;
+}
+
+.board_list th,
+.board_list td{
+    padding: 10px;
+    font-size: 14px;
+}
+
+.board_list td{
+    text-align: center;
+}
+
+.board_list .tit{
+    text-align: left;
+}
+
+.board_list .tit:hover{
+    text-decoration: underline;
+}
+
+.board_list_wrap .paging{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0;
+}
+
+.board_list_wrap .paging a{
+    display: inline-block;
+    margin-left: 10px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.board_list_wrap .paging a:first-child {
+    margin-left: 0;
+}
+
+.board_list_wrap .paging a.btn{
+    background: #eee;
+}
+
+.board_list_wrap .paging a.num{
+    font-weight: 600;
+    color: skyblue;
+}
+
+.board_list_wrap .paging a.num.on{
+    background: skyblue;
+    color: #fff;
+}
